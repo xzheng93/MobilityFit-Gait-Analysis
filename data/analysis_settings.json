@@ -1,0 +1,226 @@
+{
+  "feature_names": [
+    "gait_speed",
+    "stride_length",
+    "stride_time",
+    "stride_frequency",
+    "rms_acceleration",
+    "stride_regularity_v",
+    "stride_regularity_ml",
+    "stride_regularity_ap",
+    "stride_regularity_all",
+    "stride_time_variability",
+    "gait_speed_variability",
+    "stride_length_variability",
+    "stride_frequency_variability_v",
+    "stride_frequency_variability_ml",
+    "stride_frequency_variability_ap",
+    "gait_symmetry_index",
+    "index_harmonicity_v",
+    "index_harmonicity_ml",
+    "index_harmonicity_ap",
+    "index_harmonicity_all",
+    "harmonic_ratio_v",
+    "harmonic_ratio_ml",
+    "harmonic_ratio_ap",
+    "sample_entropy_v",
+    "sample_entropy_ml",
+    "sample_entropy_ap",
+    "lyapunov_v",
+    "lyapunov_ml",
+    "lyapunov_ap",
+    "lyapunov_per_stride_v",
+    "lyapunov_per_stride_ml",
+    "lyapunov_per_stride_ap"
+  ],
+  "domain_features": {
+    "regularity": [
+      "stride_regularity_v",
+      "stride_regularity_ml",
+      "stride_regularity_ap",
+      "stride_regularity_all",
+      "stride_time_variability",
+      "gait_speed_variability",
+      "stride_length_variability",
+      "stride_frequency_variability_v",
+      "stride_frequency_variability_ml",
+      "stride_frequency_variability_ap"
+    ],
+    "symmetry": [
+      "gait_symmetry_index"
+    ],
+    "smoothness": [
+      "index_harmonicity_v",
+      "index_harmonicity_ml",
+      "index_harmonicity_ap",
+      "index_harmonicity_all",
+      "harmonic_ratio_v",
+      "harmonic_ratio_ml",
+      "harmonic_ratio_ap"
+    ],
+    "complexity": [
+      "sample_entropy_v",
+      "sample_entropy_ml",
+      "sample_entropy_ap"
+    ],
+    "stability": [
+      "lyapunov_v",
+      "lyapunov_ml",
+      "lyapunov_ap",
+      "lyapunov_per_stride_v",
+      "lyapunov_per_stride_ml",
+      "lyapunov_per_stride_ap"
+    ]
+  },
+  "scaling": {
+    "stride_regularity_v": {
+      "lower": 0.0,
+      "upper": 0.859167066645069,
+      "higher_is_better": true
+    },
+    "stride_regularity_ml": {
+      "lower": 0.0,
+      "upper": 0.8460569012577236,
+      "higher_is_better": true
+    },
+    "stride_regularity_ap": {
+      "lower": 0.0,
+      "upper": 0.8605636814865982,
+      "higher_is_better": true
+    },
+    "stride_regularity_all": {
+      "lower": 0.0,
+      "upper": 0.8657462902009372,
+      "higher_is_better": true
+    },
+    "stride_time_variability": {
+      "lower": 0.0,
+      "upper": 0.43964473613816846,
+      "higher_is_better": false
+    },
+    "gait_speed_variability": {
+      "lower": 0.0,
+      "upper": 0.3419290237359615,
+      "higher_is_better": false
+    },
+    "stride_length_variability": {
+      "lower": 0.0,
+      "upper": 0.41762594041922635,
+      "higher_is_better": false
+    },
+    "stride_frequency_variability_v": {
+      "lower": 0.0,
+      "upper": 1.343901327293294,
+      "higher_is_better": false
+    },
+    "stride_frequency_variability_ml": {
+      "lower": 0.0,
+      "upper": 1.936441978065031,
+      "higher_is_better": false
+    },
+    "stride_frequency_variability_ap": {
+      "lower": 0.0,
+      "upper": 1.296038065070776,
+      "higher_is_better": false
+    },
+    "gait_symmetry_index": {
+      "lower": 0.0,
+      "upper": 100.0,
+      "higher_is_better": false
+    },
+    "index_harmonicity_v": {
+      "lower": 0.0,
+      "upper": 1.0,
+      "higher_is_better": true
+    },
+    "index_harmonicity_ml": {
+      "lower": 0.0,
+      "upper": 1.0,
+      "higher_is_better": true
+    },
+    "index_harmonicity_ap": {
+      "lower": 0.0,
+      "upper": 1.0,
+      "higher_is_better": true
+    },
+    "index_harmonicity_all": {
+      "lower": 0.0,
+      "upper": 1.0,
+      "higher_is_better": true
+    },
+    "harmonic_ratio_v": {
+      "lower": 0.0,
+      "upper": 5.45857177453751,
+      "higher_is_better": true
+    },
+    "harmonic_ratio_ml": {
+      "lower": 0.0,
+      "upper": 4.768261306061316,
+      "higher_is_better": true
+    },
+    "harmonic_ratio_ap": {
+      "lower": 0.0,
+      "upper": 5.199374023773223,
+      "higher_is_better": true
+    },
+    "sample_entropy_v": {
+      "lower": 0.0,
+      "upper": 0.48363986237344553,
+      "higher_is_better": true
+    },
+    "sample_entropy_ml": {
+      "lower": 0.0,
+      "upper": 0.5532458119648992,
+      "higher_is_better": true
+    },
+    "sample_entropy_ap": {
+      "lower": 0.0,
+      "upper": 0.4643354165114124,
+      "higher_is_better": true
+    },
+    "lyapunov_v": {
+      "lower": 0.0,
+      "upper": 9.5,
+      "higher_is_better": false
+    },
+    "lyapunov_ml": {
+      "lower": 0.0,
+      "upper": 8.499999999999998,
+      "higher_is_better": false
+    },
+    "lyapunov_ap": {
+      "lower": 0.0,
+      "upper": 6.892857142857142,
+      "higher_is_better": false
+    },
+    "lyapunov_per_stride_v": {
+      "lower": 0.0,
+      "upper": 13.678571428571427,
+      "higher_is_better": false
+    },
+    "lyapunov_per_stride_ml": {
+      "lower": 0.0,
+      "upper": 12.321428571428571,
+      "higher_is_better": false
+    },
+    "lyapunov_per_stride_ap": {
+      "lower": 0.0,
+      "upper": 10.82142857142857,
+      "higher_is_better": false
+    }
+  },
+  "clip_domain_scores": false,
+  "variance_threshold": 0.85,
+  "kmeans_n_init": 100,
+  "random_state": 20261011,
+  "xgboost_parameters": {
+    "max_depth": 3,
+    "colsample_bytree": 0.45,
+    "n_estimators": 300,
+    "learning_rate": 0.03,
+    "reg_lambda": 1.0,
+    "subsample": 0.95,
+    "eval_metric": "mlogloss",
+    "random_state": 20261011
+  }
+}
