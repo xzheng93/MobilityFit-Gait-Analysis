@@ -5,7 +5,7 @@ This repository contains the analysis code for the accompanying study of gait pa
 ## Workflow
 
 <p align="center">
-  <img src="fig/analysis-workflow.png" alt="Overall study workflow" width="760">
+  <img src="fig/analysis-workflow.png" alt="Overall study workflow" width="350">
 </p>
 
 Figure 1 from the manuscript. Raw IMU processing and gait outcome extraction are not included in this repository.
